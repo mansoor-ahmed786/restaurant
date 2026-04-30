@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background: #f8f4ec;
+  color: #1a1a1a;
+}
+
+.dark body {
+  background: #1a1a1a;
+  color: #f8f4ec;
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(248, 244, 236, 0.72);
+    border: 1px solid rgba(212, 175, 55, 0.26);
+    backdrop-filter: blur(18px);
+  }
+
+  .dark .glass {
+    background: rgba(26, 26, 26, 0.72);
+  }
+}

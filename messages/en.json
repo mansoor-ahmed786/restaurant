@@ -1,0 +1,39 @@
+{
+  "brand": "Aurum Table",
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "experience": "Experience",
+    "reserve": "Reserve"
+  },
+  "hero": {
+    "eyebrow": "Modern fine dining",
+    "title": "Aurum Table",
+    "copy": "Seasonal fire-led cooking, generous hospitality, and a menu tuned for guests who care about every detail.",
+    "cta": "Book a table",
+    "menu": "View menu"
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "A server-rendered seasonal menu with fast filtering, stable image frames, and rich food photography.",
+    "all": "All",
+    "add": "Add"
+  },
+  "booking": {
+    "title": "Reserve a table",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "name": "Name",
+    "confirm": "Confirm reservation",
+    "close": "Close"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "checkout": "Checkout",
+    "total": "Total",
+    "remove": "Remove"
+  },
+  "theme": "Theme"
+}
